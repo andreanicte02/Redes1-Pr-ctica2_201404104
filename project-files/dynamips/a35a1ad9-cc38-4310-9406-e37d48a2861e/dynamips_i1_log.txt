@@ -1,0 +1,19 @@
+Sep 02 05:00:34.132 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Sep 02 05:00:34.134 HYPERVISOR: Started on IP = localhost, TCP port = 51545.
+Sep 02 05:00:34.483 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 02 05:00:34.483 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\nicte\Desktop\redes1-practica2\Redes1-Practica2_201404104\project-files\dynamips 
+Sep 02 05:00:34.622 GENERAL: working_dir=C:\Users\nicte\Desktop\redes1-practica2\Redes1-Practica2_201404104\project-files\dynamips
+Sep 02 05:00:34.623 HYPERVISOR: exec_cmd: ethsw create Finanzas 
+Sep 02 05:00:37.553 HYPERVISOR: exec_cmd: nio create_udp udp-71a33722-33c0-4f11-ade8-c52c84d4eb51 10000 127.0.0.1 10001 
+Sep 02 05:00:37.555 HYPERVISOR: exec_cmd: ethsw add_nio Finanzas udp-71a33722-33c0-4f11-ade8-c52c84d4eb51 
+Sep 02 05:00:37.560 HYPERVISOR: exec_cmd: ethsw set_access_port Finanzas udp-71a33722-33c0-4f11-ade8-c52c84d4eb51 1 
+Sep 02 05:00:37.674 HYPERVISOR: exec_cmd: nio create_udp udp-4c700b3e-be6b-437b-96d0-f48c75a58591 10002 127.0.0.1 10003 
+Sep 02 05:00:37.674 HYPERVISOR: exec_cmd: ethsw add_nio Finanzas udp-4c700b3e-be6b-437b-96d0-f48c75a58591 
+Sep 02 05:00:37.685 HYPERVISOR: exec_cmd: ethsw set_access_port Finanzas udp-4c700b3e-be6b-437b-96d0-f48c75a58591 1 
+Sep 02 05:00:38.194 HYPERVISOR: exec_cmd: nio create_udp udp-9fa5c009-f583-45af-800d-e00daf3f83d4 10010 127.0.0.1 10011 
+Sep 02 05:00:38.195 HYPERVISOR: exec_cmd: ethsw add_nio Finanzas udp-9fa5c009-f583-45af-800d-e00daf3f83d4 
+Sep 02 05:00:38.201 HYPERVISOR: exec_cmd: ethsw set_access_port Finanzas udp-9fa5c009-f583-45af-800d-e00daf3f83d4 1 
+Sep 02 05:40:36.627 HYPERVISOR: exec_cmd: ethsw delete Finanzas 
+Sep 02 05:40:36.681 HYPERVISOR: exec_cmd: hypervisor stop 
+Sep 02 05:40:36.787 HYPERVISOR: Stopped.
+Sep 02 05:40:36.787 GENERAL: reset done.

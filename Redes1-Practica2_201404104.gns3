@@ -773,7 +773,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5006,
+                "console": 5011,
                 "console_auto_start": false,
                 "console_type": "none",
                 "custom_adapters": [],
@@ -891,7 +891,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5005,
+                "console": 5013,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -1031,5 +1031,5 @@
     "type": "topology",
     "variables": null,
     "version": "2.2.11",
-    "zoom": 50
+    "zoom": 71
 }

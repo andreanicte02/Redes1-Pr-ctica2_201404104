@@ -1,0 +1,6 @@
+cygwin warning:
+  MS-DOS style path detected: C:\Users\nicte\Desktop\redes1-practica2\Redes1-Practica2_201404104\project-files\dynamips
+  Preferred POSIX equivalent is: /cygdrive/c/Users/nicte/Desktop/redes1-practica2/Redes1-Practica2_201404104/project-files/dynamips
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames

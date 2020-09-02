@@ -1,0 +1,82 @@
+201404104
+
+->x->4
+
+192.168.14.0 /26
+192.168.14.64/26
+192.168.14.128/26
+
+255.255.255.192
+
+sh ip interface brief
+
+
+finanzas
+
+configure terminal
+interface fastEthernet 0/0
+ip address 192.168.14.1 255.255.255.192
+no noshutdown
+exit
+
+ventas
+
+configure terminal
+interface fastEthernet 0/1
+ip address 192.168.14.65 255.255.255.192
+no shutdown
+exit
+
+informatica
+
+configure terminal
+interface fastEthernet 1/0
+ip address 192.168.14.129 255.255.255.192
+no shutdown
+exit
+
+write memory
+
+///////////////////////////////////////
+maquinas -> (finanzas) 192.168.14.1
+
+pc1
+
+ip 192.168.14.2 255.255.255.192 192.168.14.1
+save
+
+pc2
+ip 192.168.14.3 255.255.255.192 192.168.14.1
+save
+
+/////////////////////////////////////////
+maquinas -> (ventas) 192.168.14.65
+
+pc3
+ip 192.168.14.66 255.255.255.192 192.168.14.65
+save
+
+pc4
+ip 192.168.14.67 255.255.255.192 192.168.14.65
+save
+
+pc5
+ip 192.168.14.68 255.255.255.192 192.168.14.65
+
+///////////////////////////////////////
+maquinas -> (informatica) 192.168.14.129
+
+ip 192.168.14.130 255.255.255.192 192.168.14.129
+
+192.168.14.191
+
+
+finanzas 2 compus
+
+3 dominos de calision
+
+ventas
+4 dominios de colison
+
+informatica
+2 dominos de colision
