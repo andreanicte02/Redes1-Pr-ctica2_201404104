@@ -15,7 +15,7 @@ Para la siguiente topología se utilizaron:
 
 ## Topología
 
-![im1](\imgs\im1.png)
+![im1](im1.png)
 
 
 
@@ -100,7 +100,7 @@ Para esta practica se utilizo un router con 3 interfaz, a continuacion se muestr
 
 ### Other (linux-tiny)
 
-![im2](\imgs\im2.png)
+![im2](im2.png)
 
 
 
@@ -116,4 +116,4 @@ Para esta practica se utilizo un router con 3 interfaz, a continuacion se muestr
 
 ### Captura de paquetes
 
-![im3](\imgs\im3.png)
+![im3](im3.png)
