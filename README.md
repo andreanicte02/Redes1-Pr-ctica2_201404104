@@ -4,22 +4,22 @@ Andrea Nicte Vicente Campos
 
 
 
-# Configuracion
+# Configuración
 
-Para la siguiente topologia se utilizaron:
+Para la siguiente topología se utilizaron:
 
 - 1 router
 - 3 switch
 - 5 vpc
 - 1 maquina virtualizada
 
-## Topologia
+## Topología
 
-![im1](imgs\im1.png)
+![im1](\imgs\im1.png)
 
 
 
-## Configuracion del router
+## Configuración del router
 
 Para esta practica se utilizo un router con 3 interfaz, a continuacion se muestran las configuraciones para cada interfaz 
 
@@ -29,7 +29,7 @@ Para esta practica se utilizo un router con 3 interfaz, a continuacion se muestr
 |   fastEthernet 0/1 (Ventas)    |
 | fastEthernet 1/0 (Informatica) |
 
-### Configuracion fastEthernet 0/0 
+### Configuración fastEthernet 0/0 
 
 > $configure terminal
 
@@ -41,7 +41,7 @@ Para esta practica se utilizo un router con 3 interfaz, a continuacion se muestr
 
 > $exit
 
-### Configuracion fastEthernet 0/1
+### Configuración fastEthernet 0/1
 
 > $configure terminal
 
@@ -53,7 +53,7 @@ Para esta practica se utilizo un router con 3 interfaz, a continuacion se muestr
 
 > $exit
 
-### Configuracion fastEthernet 1/0
+### Configuración fastEthernet 1/0
 
 > $configure terminal
 
@@ -65,11 +65,11 @@ Para esta practica se utilizo un router con 3 interfaz, a continuacion se muestr
 
 > $exit
 
-### Guardar la configuracion del router
+### Guardar la configuración del router
 
 > $write memory
 
-## Configuracion pc's
+## Configuración pc's
 
 ### PC1
 
@@ -100,7 +100,7 @@ Para esta practica se utilizo un router con 3 interfaz, a continuacion se muestr
 
 ### Other (linux-tiny)
 
-![im2](imgs\im2.png)
+![im2](\imgs\im2.png)
 
 
 
@@ -108,12 +108,12 @@ Para esta practica se utilizo un router con 3 interfaz, a continuacion se muestr
 
 ### Cálculos de dominio de broadcast y dominios de colisión
 
-|             | Dominios brodcast | Dominios colision |
+|             | Dominios brodcast | Dominios colisión |
 | ----------- | ----------------- | ----------------- |
 | Finanzas    | 1                 | 3                 |
 | Ventas      | 1                 | 2                 |
-| Informatica | 1                 | 1                 |
+| Informática | 1                 | 1                 |
 
 ### Captura de paquetes
 
-![im3](C:\Users\nicte\Desktop\redes1-practica2\Redes1-Practica2_201404104\imgs\im3.png)
+![im3](\imgs\im3.png)
